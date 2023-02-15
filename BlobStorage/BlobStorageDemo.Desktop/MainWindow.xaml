@@ -1,0 +1,22 @@
+﻿<Window x:Class="BlobStorageDemo.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlobStorageDemo.Desktop"
+        mc:Ignorable="d"
+        Title="Blob Storage Demo" Height="450" Width="800">
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Refresh lists" Click="OnRefreshListsButtonClickAsync" />
+            <MenuItem Header="Create container" Click="OnCreateContainerButtonClickAsync" />
+            <MenuItem Header="Upload to selected container" Click="OnUploadButtonClickAsync" />
+            <MenuItem Header="Download selected blob" Click="OnDownloadButtonClickAsync" />
+        </Menu>
+        <ListBox x:Name="containersList"
+                 DockPanel.Dock="Left"
+                 Width="150"
+                 SelectionChanged="OnContainerSelectionChanged"/>
+        <ListBox x:Name="blobsList" />
+    </DockPanel>
+</Window>

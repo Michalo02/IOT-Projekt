@@ -1,0 +1,6 @@
+IotHUb login: 
+HostName=PrzykladoweCentrumIoT.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=DLn0Fnj5sGBFD3/SHSNZ0Bt5XcAPNHO+Z2Cw7d+z5Ts=
+Nazwa zgodna z centrum zdarzeń usługi Event Hubs
+iothub-ehub-przykladow-22221939-d8e5e36a45
+Punkt końcowy zgodny z centrum zdarzeń usługi Event Hubs
+Endpoint=sb://ihsuprodamres082dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=DLn0Fnj5sGBFD3/SHSNZ0Bt5XcAPNHO+Z2Cw7d+z5Ts=;EntityPath=iothub-ehub-przykladow-22221939-d8e5e36a45

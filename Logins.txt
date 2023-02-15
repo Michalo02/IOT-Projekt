@@ -1,0 +1,6 @@
+OPC Connetion:
+opc.tcp://localhost:4840/
+Iot Connection Parametrs:
+HostName=iothub-standard.azure-devices.net;DeviceId=asa-dev;SharedAccessKey=hfUyoaiznrgCnsrtmaeHNTVGjP4+e5sxSxEjz+y0WTg=
+HostName=iothub-standard.azure-devices.net;DeviceId=dev1;SharedAccessKey=fW0a8AUN1M5GC93RxCdzOt2HjF359IrSSvy80vQi5aw=
+HostName=PrzykladoweCentrumIoT.azure-devices.net;DeviceId=id-13102022;SharedAccessKey=TMC3nAGfSzGxOCy18yq8swX8hSOOquLTVCUDkqzP2YI=

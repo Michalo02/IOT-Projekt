@@ -1,0 +1,4 @@
+OPC Connetion:
+opc.tcp://localhost:4840/
+Iot Connection Parametrs:
+HostName=PrzykladoweCentrumIoT.azure-devices.net;DeviceId=id-13102022;SharedAccessKey=TMC3nAGfSzGxOCy18yq8swX8hSOOquLTVCUDkqzP2YI=
